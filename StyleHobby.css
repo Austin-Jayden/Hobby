@@ -1,35 +1,111 @@
+/* Background */
 body{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 1;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1px;
     background-image: url("BackGround.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+/* Heading */
 #main-header{
     text-align: center;
-    color: white;
+    color: purple;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 20px;
     background-color:dodgerblue;
+
 }
+/* Navigation */
 #MainNav{
-    background-color: dodgerblue;
+    background-color: purple;
 }
 .NavMenu{
     list-style: none;
+    justify-content: center;
     display: flex;
     margin: 0;
-    padding: 10px;
-    justify-content: center;}
+    padding: 10px;}
 .NavMenu li{
     margin: 0 15px;}
 .NavMenu a{
-    color: white;
+    color: dodgerblue;
     text-decoration: none;
     font-size: 18px;}
 .NavMenu a:hover{
-    color: dodgerblue;}
-#content{
-    background-color: rgba(255, 255, 255, 0.8); 
+    color: azure;
+    text-decoration: underline;}
+
+/* Image */
+.karate-image{
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(183, 11, 11, 0.1);
+}
+/* Content */
+.content-section{
+    background-color: rgba(30, 144, 255, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+.content-section h2{
+    color: purple;
+    margin-bottom: 10px;
+}
+.content-section h3{
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+.content-section p{
+    color: white;
+    line-height: 1.6;
+}
+.content-section li{
+    color: white;
+    margin-bottom: 5px;
+}
+.email-link{
+    color: red;
+}
+.phone-link{
+    color: red;
+}
+/* Gallery */
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.gallery-image{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.gallery-image:hover{
+    transform: scale(1.05);
+}
+/* Button */
+.btn.btn-outline-primary {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Footer */
+#main-footer{
+    text-align: center;
+    padding: 10px;
+    background-color: purple;
+    color: dodgerblue;
+    margin-top: 20px;
+}
