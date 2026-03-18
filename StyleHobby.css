@@ -1,0 +1,33 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1;
+    background-image: url("BackGround.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#main-header{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color:dodgerblue;
+}
+#MainNav{
+    background-color: dodgerblue;
+}
+.NavMenu{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    justify-content: center;}
+.NavMenu li{
+    margin: 0 15px;}
+.NavMenu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;}
+.NavMenu a:hover{
+    color: dodgerblue;}
